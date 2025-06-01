@@ -20,7 +20,7 @@ export default function Navbar() {
   const { setTheme } = useTheme();
   return (
     <div>
-      <nav className="flex justify-between items-center p-4">
+      <nav className="flex justify-between items-center p-4 sticky top-0 z-20 bg-background">
         {/* left */}
         <SidebarTrigger />
         {/* right */}
